@@ -5,12 +5,13 @@ Utilized YOLOv5 to train model on a custom dataset.
 ### Setup Instructions
 
 1. Create a virtual environment
+
    `py -3.10 -m venv env`
 
-2. Activate the virtual environment
+3. Activate the virtual environment
    .\env\Scripts\Activate.ps1
 
-3. Install project dependencies
+4. Install project dependencies
    pip install -r requirements.txt
 
 ### Model Training
