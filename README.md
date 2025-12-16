@@ -8,11 +8,11 @@ Utilized YOLOv5 to train model on a custom dataset.
 
    `py -3.10 -m venv env`
 
-3. Activate the virtual environment
+2. Activate the virtual environment
 
    `.\env\Scripts\Activate.ps1`
 
-5. Install project dependencies
+3. Install project dependencies
 
    `pip install -r requirements.txt`
 
@@ -28,12 +28,12 @@ Utilized YOLOv5 to train model on a custom dataset.
 
    `python detect.py --weights runs/train/exp12/weights/best.pt --source test_images/your_image.jpg`
 
-7. Detect vehicles in a video  
+6. Detect vehicles in a video  
    Default video path: my_test_vids\v1.mp4
 
    `python tracker.py`
 
-8. Real-time vehicle detection using device’s webcam
+7. Real-time vehicle detection using device’s webcam
 
    `python tracker_webcam.py`
 
@@ -47,28 +47,26 @@ Utilized pre-trained model (YOLOv8n) to detect vehicles, and YOLOv8 to detect li
 
    `py -3.10 -m venv env`
 
-3. Activate the virtual environment  
+2. Activate the virtual environment  
 
    `.\env\Scripts\Activate.ps1`
 
-5. Install project dependencies  
+3. Install project dependencies  
 
    `pip install -r requirements.txt`
 
 ### Pipeline
 
-4. Run the main detection and tracking pipeline  
+4. Run main.py. Ensure video sample is named accordingly (default is 'sample.mp4'):
    Ensure the input video is named correctly (default: `sample.mp4`)  
 
    `python main.py`
 
-6. Interpolate missing detections across frames  
-   This step fills in bounding boxes for frames where detections were missed  
+5. Run the add_missing_data.py to interpolate values for missing frames: 
 
    `python interpolate.py`
 
-8. Generate the final annotated video with bounding boxes and cropped license plates  
-   Default output file: `out.mp4`  
+6. Draw borders and cropped license plate into video (default output is out.mp4):
 
    `python finalize.py`
 
