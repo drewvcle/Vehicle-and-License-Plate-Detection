@@ -5,7 +5,7 @@
   />
 </p>
 <p align="center">
-  <sub><b>Figure 1. Detected vehicles in image format.</sub>
+  <sub><b>Figure 1.</b> Detected vehicles in image format.</sub>
 </p>
 
 <p align="center">
@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <sub><b>Figure 2. Detected vehicles in video format. Can use internal webcam.</sub>
+  <sub><b>Figure 2.</b> Detected vehicles in video format. Can use internal webcam.</sub>
 </p>
 
 ## Vehicle Detection
