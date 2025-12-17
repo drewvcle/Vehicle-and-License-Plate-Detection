@@ -9,11 +9,9 @@
 </p>
 
 <p align="center">
-   <video src="https://raw.githubusercontent.com/drewvcle/Vehicle-and-License-Plate-Detection/main/output_car_vid.mp4"
-          controls
-          width="700">
-   </video> 
+  <video src="https://github.com/user-attachments/assets/c9dd83f7-62ff-4738-b26c-fe8d50a7d218" controls width="700"></video>
 </p>
+
 <p align="center">
   <sub><b>Figure 2. Detected vehicles in video format. Can use internal webcam.</sub>
 </p>
