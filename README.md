@@ -1,3 +1,23 @@
+<p align="center">
+  <img
+    src="https://cdn.discordapp.com/attachments/771051131035189253/1450957331096408164/image.png?ex=69446cd1&is=69431b51&hm=2d497dae49bb2ec6e598fb89ffab16f14b28051ec0d7c5c298854787ba44e3fb&"
+    width="400"
+  />
+</p>
+<p align="center">
+  <sub><b>Figure 1. Detected vehicles in image format.</sub>
+</p>
+
+<p align="center">
+   <video src="https://raw.githubusercontent.com/drewvcle/Vehicle-and-License-Plate-Detection/main/demo.mp4"
+          controls
+          width="700">
+   </video> 
+</p>
+<p align="center">
+  <sub><b>Figure 2. Detected vehicles in video format. Can use internal webcam.</sub>
+</p>
+
 ## Vehicle Detection
 
 Utilized YOLOv5/YOLOv8 to train model on a custom dataset.
