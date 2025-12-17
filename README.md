@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-   <video src="https://raw.githubusercontent.com/drewvcle/Vehicle-and-License-Plate-Detection/main/demo.mp4"
+   <video src="https://raw.githubusercontent.com/drewvcle/Vehicle-and-License-Plate-Detection/main/output_car_vid.avi"
           controls
           width="700">
    </video> 
