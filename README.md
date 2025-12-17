@@ -1,6 +1,6 @@
 ## Vehicle Detection
 
-Utilized YOLOv5 to train model on a custom dataset.
+Utilized YOLOv5/YOLOv8 to train model on a custom dataset.
 
 ### Setup Instructions
 
