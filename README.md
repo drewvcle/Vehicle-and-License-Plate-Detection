@@ -1,6 +1,6 @@
 <p align="center">
   <img
-    src="https://cdn.discordapp.com/attachments/771051131035189253/1450957331096408164/image.png?ex=69446cd1&is=69431b51&hm=2d497dae49bb2ec6e598fb89ffab16f14b28051ec0d7c5c298854787ba44e3fb&"
+    src="https://raw.githubusercontent.com/drewvcle/Vehicle-and-License-Plate-Detection/main/image.png"
     width="400"
   />
 </p>
